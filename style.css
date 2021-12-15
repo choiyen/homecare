@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: lightcyan;
+}
+a
+{
+    text-decoration: none;
+    color: lightcyan;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 8px 12px;
+}
+
+.navbar img
+{
+    width: 30px;
+    height: 30px;
+}
+
+ul 
+{
+   list-style:none;
+} 
+
+
+
+.navbar__logo 
+{
+    color: blue;
+    font-size: 24px;
+}
+.navbar__logo i
+{
+    color: tomato;
+}
+
+.navbar__menu
+{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+}
+.navbar__menu li
+{
+    padding: 8px 12px;
+    
+}
+
+.navbar__icons
+{
+    list-style: none;
+    color: white;
+    display: flex;
+}
+.navbar__icons li
+{
+    padding: 8px 12px;
+}
+a:hover 
+{
+    color : red;
+}
+.naver_menu li {
+    padding: 15px;
+    margin: 0px 3px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+  }
+
+.naver__menu li:hover {
+    cursor: pointer;
+    background: yellow;
+    color: tomato;
+    border-radius: 4px;
+  }
+  .btn-scale-0,
+  .btn-scale-1,
+  .btn-scale-2,
+  .btn-scale-3 {
+    background-color: #FE0200;
+    color: white;
+    text-shadow: 1px 1px 3px #8e8e8e;
+  }
+
+  .navber__toogleBtn
+  {
+      display: none;
+      position:absolute;
+      right: 32px;
+
+  }
+section > div
+{
+    border: 7px solid lightpink;
+    float: left;
+    width: 100%;
+}
+
+
+
+  @media screen and (max-width : 768px)
+  {
+      .navbar 
+      {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+      }
+      .navbar__menu
+      {
+          display: none;
+          flex-direction: column;
+          align-items: left;
+          width: 100%;
+      }
+      .navbar__menu li
+      {
+        width: 100%;
+        text-align: center;
+      }
+      
+      .navbar__links 
+      {
+        display: none;
+        justify-content: center;
+        width: 100%;
+        text-align: right;
+      }
+      .navbar__links img
+      {
+        padding: 12px 12px;
+      }
+      .navber__toogleBtn
+      {
+          display: block;
+      }
+      .navbar__menu.active,
+      .navbar__links.active
+      {
+          display: flex;
+      }
+  }
