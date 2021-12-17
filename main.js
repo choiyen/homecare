@@ -8,6 +8,3 @@ toggleBtn.addEventListener('click',()=> {
    icons.classList.toggle('active');
 });
 
-$(document).ready(function(){
-    $('.slider').slider();
-  });

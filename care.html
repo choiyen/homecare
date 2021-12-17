@@ -12,9 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <title>은하수 홈케어</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    
     <script src ="main.js" defer></script>
     <link rel="stylesheet" href="slider.css"> 
-    <script src="slideShow.js" defer ></script> 
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider();
+        });
+    </script>
 </head>
 
 <body>
@@ -28,7 +38,6 @@
             <li><a href="">홈</a></li>
             <li><a href="">소개</a></li>
             <li><a href="">업무</a></li>
-            <li><a href="">신청</a></li>
             <li><a href="">문의</a></li>
         </ul>
         <div class="navbar__links">
@@ -40,11 +49,33 @@
         </a>
     </nav>
     <nav>
-       	
+        <div class="slider">
+            <div class="entry1">
+                <li class="title"> 은하수 홈케어</p>
+                <li class="title2"> 가족 같은 마음으로 청소해드립니다. </li>
+            </div>
+            <div class="entry2">
+                <li class="title"> 은하수 홈케어</p>
+                <li class="title2"> 가족 같은 마음으로 청소해드립니다. </li>
+            </div>
+            <div class="entry3">
+                <li class="title"> 은하수 홈케어</p>
+                <li class="title2"> 가족 같은 마음으로 청소해드립니다. </li>
+            </div>
+            
+        </div>
     </nav>
     </section>
-    
+    <div class="span1"><img src="image/청소1.jpg"소개</div>
+    <section class="unit">
+        <table>
+           <td class="span1">>ddddddd</td>
+        </table>
+    </section>
         
 
 </body>
+<footer>
+    dddddddd
+</footer>
 </html>

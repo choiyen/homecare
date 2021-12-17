@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: lightcyan;
+    background-color: lightgray;
 }
 a
 {
@@ -50,6 +50,7 @@ ul
 .navbar__menu li
 {
     padding: 8px 12px;
+    font-size: 25px;
     
 }
 
@@ -100,10 +101,12 @@ a:hover
   }
 section > div
 {
-    border: 7px solid lightpink;
+   
     float: left;
     width: 100%;
+    
 }
+
 
 
 
@@ -126,6 +129,7 @@ section > div
       {
         width: 100%;
         text-align: center;
+        font-size: 15px;
       }
       
       .navbar__links 
